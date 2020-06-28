@@ -27,7 +27,7 @@ iface eth1 inet static
       address 10.10.0.1
       netmask 255.255.255.0
 ```
-![](./grafiki/1.png)
+![](./grafiki/1.PNG)
 
 taki sam będzie wynik komendy ``` cat /etc/network/interfaces ```
 
@@ -37,14 +37,14 @@ Instaluję serwer DHCP - na urządzeniu używam komendy ```apk add dhcp```
 
 Zmiany wprowadzone w ```/etc/dhcp/dhcpd.conf``` :
 
-![](./grafiki/2.png)
+![](./grafiki/2.PNG)
 
 Wpisuję ```service dhcpd restart```
 
 Sprawdzam czy KLIENT1 otrzymał dns oraz adres ip:
 
 
-![](./grafiki/3.png
+![](./grafiki/3.PNG)
 
 ```DRUKARKA``` oraz klient ```ORG-KLNT``` potrzebują statycznych adresów IP.
 Stworzę je używając ```etc/network/interfaces```.
@@ -55,7 +55,7 @@ Adres klienta ```DRUKARKA```.
 
 Adres klienta ```ORG-KLNT```.
 
-![](./grafiki/5.png)
+![](./grafiki/5.PNG)
 
 
 ######  Konfiguracja NAT
@@ -72,13 +72,13 @@ Na maszynie  ```Server DHCP```  dodaję komende ```apk add dnsmasq```
 
 Do pliku ```/etc/hosts``` dodaje:
 
-![](./grafiki/6.png)
+![](./grafiki/6.PNG)
 
 Chcę zobaczyć zmiany w pliku ```/etc/hosts/``` restartuje dns komedną: ```service dnsmasq restart```
 
 Wynik użycia komendy ```nslookup``` z maszyny ``` KLIENT01```.
 
-![](./grafiki/7.png)
+![](./grafiki/7.PNG)
 
 
  
