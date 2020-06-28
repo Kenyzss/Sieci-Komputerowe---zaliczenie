@@ -46,7 +46,7 @@ Sprawdzam czy KLIENT1 otrzymał dns oraz adres ip:
 
 ![](./grafiki/3.PNG)
 
-```DRUKARKA``` oraz klient ```ORG-KLNT``` potrzebują statycznych adresów IP.
+```DRUKARKA``` oraz  ```ORG-KLNT``` potrzebują statycznych adresów IP.
 Stworzę je używając ```etc/network/interfaces```.
 
 Adres klienta ```DRUKARKA```.
