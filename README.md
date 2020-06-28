@@ -51,7 +51,7 @@ Stworzę je używając ```etc/network/interfaces```.
 
 Adres klienta ```DRUKARKA```.
 
-![](./grafiki/4.png)
+![](./grafiki/4.PNG)
 
 Adres klienta ```ORG-KLNT```.
 
